@@ -104,6 +104,50 @@ The business needed:
 - Integrated Bookings with Exchange Online
 
 ---
+---
+
+## Challenges & Troubleshooting
+
+Real issues encountered during deployment and how I resolved them:
+
+### 1. DKIM CNAME Record Configuration
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| DKIM records not validating | CNAME values from Microsoft were very long and complex | Carefully copied full CNAME values including `.onmicrosoft.com` suffix, verified in Microsoft Defender portal |
+
+### 2. MX Record Setup in Namecheap
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| MX record not appearing in DNS settings | Namecheap handles MX records in a separate "Mail Settings" section | Located Mail Settings, selected "Custom MX", added Microsoft's mail server with priority 0 |
+
+### 3. Microsoft Bookings - Blank Page Error
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Public booking page showed blank with "error occurred" | Staff members not assigned to services | Identified need to assign staff to each service before page functions (documented for future fix) |
+
+### 4. Power Automate - Connection Errors
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| "Invalid connection" and "Booking page is required" errors | Trigger not fully configured; Bookings connector needed authentication | Re-authenticated connection with business account, selected correct Booking calendar in trigger settings |
+
+### 5. DNS Propagation Delays
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Domain verification not completing immediately | DNS changes take time to propagate globally | Waited 15-30 minutes, used MXToolbox to verify propagation before retrying verification |
+
+---
+
+## Lessons Learned
+
+1. **Always verify DNS changes** using external tools (MXToolbox) before assuming they failed
+2. **Break-glass accounts** should use the `.onmicrosoft.com` domain for DNS independence
+3. **Email security is layered** - SPF, DKIM, and DMARC work together
+4. **Read error messages carefully** - they usually point to the exact fix needed
+5. **Document as you go** - screenshots saved troubleshooting time when revisiting issues
+
+---
+
+
 
 ## Skills Demonstrated
 
