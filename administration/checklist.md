@@ -44,13 +44,6 @@
 
 ---
 
-## Quick Links
-
-- M365 Admin: admin.microsoft.com
-- Entra ID: entra.microsoft.com
-- MXToolbox: mxtoolbox.com
-- Namecheap: namecheap.com
-
 
 ## Logs
 1.
