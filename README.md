@@ -1,6 +1,6 @@
 
 
-# Microsoft 365 Small Business Infrastructure
+# Microsoft 365 Business Infrastructure
 
 ## Project Overview
 
