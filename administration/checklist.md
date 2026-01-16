@@ -46,4 +46,4 @@
 
 
 ## Logs
-1.
+WK1. All good, didnt run into any issues this week.
