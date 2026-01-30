@@ -1,43 +1,24 @@
-# Maintenance Log
+# IT Maintenance & Operations Log: GTS
 
-Ongoing IT administration record for Guest Turnover Solutions.
+## 📋 The Standard Operating Procedure (SOP)
+### Weekly (Mondays)
+- [ ] Review Entra ID Sign-in logs (Failed logins/unusual locations)
+- [ ] Verify Power Automate flow status (Check run history)
+- [ ] Check M365 Service Health dashboard
+- [ ] External email flow test (Gmail -> Business email)
 
----
-
-## Overview
-
-| Item | Value |
-|------|-------|
-| Tenant Created | December 2025 |
-| Primary Admin | jesse.adejoh@guestturnoversolutions.co.uk |
-| Emergency Admin | BreakGlass-Admin@GuestTurnoverSolutions.onmicrosoft.com |
-| Domain | guestturnoversolutions.co.uk |
-| Domain Expiry | Check Namecheap annually |
-
----
-
-## Current Status
-
-| Metric | Status |
-|--------|--------|
-| Secure Score | 72% |
-| MXToolbox | 29/29 |
-| Website | Live |
-| Email | Working |
-| Last Review | Jan 2026 |
+### Monthly (First Monday)
+- [ ] Record M365 Secure Score
+- [ ] Verify Break-glass account access (Login test)
+- [ ] Review Google Analytics traffic trends
+- [ ] Audit SharePoint permissions
 
 ---
 
-## What To Log
+## 🗓️ 2026 Activity Log
 
-| Type | When To Log |
-|------|-------------|
-| Weekly check | Every week — one line |
-| Monthly review | First week of each month |
-| Incident | When something unusual happens |
-| Change | When you change or add something |
-
----
-
-## Log Format
-
+### January 2026
+- **WK1 (Jan 5):** All systems operational. Secure Score: 72%.
+- **WK2 (Jan 12):** Routine check completed. No anomalies in sign-in logs.
+- **WK3 (Jan 19):** Routine check completed. Confirmed SPF/DKIM/DMARC alignment.
+- **WK4 (Jan 26):** **Phase 2 Deployment:** Integrated Power Automate and GA4. See Incident Log for trigger latency troubleshooting.
