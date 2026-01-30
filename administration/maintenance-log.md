@@ -15,10 +15,27 @@
 
 ---
 
-## 🗓️ 2026 Activity Log
+## 🗓️ 2026 Maintenance Tracker
 
-### January 2026
-- **WK1 (Jan 5):** All systems operational. Secure Score: 72%.
-- **WK2 (Jan 12):** Routine check completed. No anomalies in sign-in logs.
-- **WK3 (Jan 19):** Routine check completed. Confirmed SPF/DKIM/DMARC alignment.
-- **WK4 (Jan 26):** **Phase 2 Deployment:** Integrated Power Automate and GA4. See Incident Log for trigger latency troubleshooting.
+| Date | Week | Status | Secure Score | Key Actions / Observations |
+| :--- | :--- | :--- | :--- | :--- |
+| 05 Jan | WK1 | ✅ Healthy | 72% | Initial baseline check. All logs clear. |
+| 12 Jan | WK2 | ✅ Healthy | 72% | Routine check. Verified SPF/DKIM via MXToolbox. |
+| 19 Jan | WK3 | ✅ Healthy | 72% | Routine check. Reviewed Entra ID sign-in logs. |
+| 26 Jan | WK4 | ⚠️ Incident | 72% | **Phase 2 Deploy.** GA4 & Power Automate live. (See INC#003). |
+| 02 Feb | WK5 | | | |
+| 09 Feb | WK6 | | | |
+| 16 Feb | WK7 | | | |
+| 23 Feb | WK8 | | | |
+| 02 Mar | WK9 | | | |
+| 09 Mar | WK10 | | | |
+| 16 Mar | WK11 | | | |
+| 23 Mar | WK12 | | | |
+| 30 Mar | WK13 | | | |
+
+---
+
+## 💡 Status Key
+- ✅ **Healthy:** All systems operational. No issues found.
+- ⚠️ **Incident:** Technical hurdle encountered. Resolved (See Incident Log).
+- ❌ **Fault:** Service down. Active troubleshooting required.
