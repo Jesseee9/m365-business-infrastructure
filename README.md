@@ -1,11 +1,16 @@
-Microsoft 365 Infrastructure & Operations: Guest Turnover Solutions
-🚀 Project Overview
-A live, production-grade Microsoft 365 environment for Guest Turnover Solutions, a professional cleaning service in Hull, UK. This project has evolved from initial deployment into a managed operational environment featuring automation and business intelligence.
-🌐 Live Site: guestturnoversolutions.co.uk
-👤 My Role
-Position: IT Administrator (Remote)
-Focus: Infrastructure Management, Security Hardening, and Process Automation.
-🏗 Architecture Diagram
+# Microsoft 365 Infrastructure & Operations: Guest Turnover Solutions
+
+## 🚀 Project Overview
+A live, production-grade Microsoft 365 environment for **Guest Turnover Solutions**, a professional cleaning service in Hull, UK. This project has evolved from initial deployment into a managed operational environment featuring **automation** and **business intelligence**.
+
+**🌐 Live Site:** [guestturnoversolutions.co.uk](https://guestturnoversolutions.co.uk)
+
+## 👤 My Role
+**Position:** IT Administrator (Remote)  
+**Focus:** Infrastructure Management, Security Hardening, and Process Automation.
+
+## 🏗 Architecture Diagram
+```text
 ┌─────────────────────────────────────────────────────────┐
 │              CUSTOM DOMAIN (DNS)                        │
 │          guestturnoversolutions.co.uk                   │
