@@ -2,40 +2,35 @@
 
 ## 📋 The Standard Operating Procedure (SOP)
 ### Weekly (Mondays)
-- [ ] Review Entra ID Sign-in logs (Failed logins/unusual locations)
-- [ ] Verify Power Automate flow status (Check run history)
-- [ ] Check M365 Service Health dashboard
-- [ ] External email flow test (Gmail -> Business email)
+- [x] **Identity Audit:** Review [Entra Sign-in logs](https://entra.microsoft.com) (Failed logins/unusual locations).
+- [x] **Automation Check:** Verify Power Automate flow status (Check [Run history](https://make.powerautomate.com)).
+- [x] **Email Flow:** External email test (Gmail -> Business email). Verify receipt in SharePoint Tracker.
+- [x] **Identity Posture:** Record [Identity Secure Score](https://entra.microsoft.com) (Protection > Identity Secure Score).
+- [x] **Global Posture:** Record [M365 Secure Score](https://security.microsoft.com/securescore) (Defender Portal).
+- [x] **Web Uptime:** Verify [guestturnoversolutions.co.uk](https://guestturnoversolutions.co.uk) loads with active HTTPS.
 
 ### Monthly (First Monday)
-- [ ] Record M365 Secure Score
-- [ ] Verify Break-glass account access (Login test)
-- [ ] Review Google Analytics traffic trends
-- [ ] Audit SharePoint permissions
+- [ ] **DR Test:** Verify Break-glass account access (Login test).
+- [ ] **Analytics:** Review Google Analytics traffic trends.
+- [ ] **Governance:** Audit SharePoint folder permissions.
 
 ---
 
 ## 🗓️ 2026 Maintenance Tracker
 
-| Date | Week | Status | Secure Score | Key Actions / Observations |
-| :--- | :--- | :--- | :--- | :--- |
-| 05 Jan | WK1 | ✅ Healthy | 72% | Initial baseline check. All logs clear. |
-| 12 Jan | WK2 | ✅ Healthy | 72% | Routine check. Verified SPF/DKIM via MXToolbox. |
-| 19 Jan | WK3 | ✅ Healthy | 72% | Routine check. Reviewed Entra ID sign-in logs. |
-| 26 Jan | WK4 | ⚠️ Incident | 72% | **Phase 2 Deploy.** GA4 & Power Automate live. (See INC#003). |
-| 02 Feb | WK5 | | | |
-| 09 Feb | WK6 | | | |
-| 16 Feb | WK7 | | | |
-| 23 Feb | WK8 | | | |
-| 02 Mar | WK9 | | | |
-| 09 Mar | WK10 | | | |
-| 16 Mar | WK11 | | | |
-| 23 Mar | WK12 | | | |
-| 30 Mar | WK13 | | | |
+| Date | Week | Status | M365 Score | Identity Score | Key Actions / Observations |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 05 Jan | WK1 | ✅ Healthy | 45.0%* | 58.3% | Initial baseline. *Estimated based on Jan 30 audit. |
+| 12 Jan | WK2 | ✅ Healthy | 45.0%* | 58.3% | Routine check. Verified SPF/DKIM via MXToolbox. |
+| 19 Jan | WK3 | ✅ Healthy | 45.0%* | 58.3% | Routine check. Reviewed Entra ID sign-in logs. |
+| 26 Jan | WK4 | ⚠️ Incident | 45.0%* | 58.3% | **Phase 2 Deploy.** Automation delay noted (See INC#003). |
+| 02 Feb | WK5 | ✅ Healthy | 45.96% | 58.33% | **Today:** Logged actual Defender baseline. Identity secure. |
+| 09 Feb | WK6 | | | | |
+| 16 Feb | WK7 | | | | |
 
 ---
 
 ## 💡 Status Key
-- ✅ **Healthy:** All systems operational. No issues found.
-- ⚠️ **Incident:** Technical hurdle encountered. Resolved (See Incident Log).
-- ❌ **Fault:** Service down. Active troubleshooting required.
+- ✅ **Healthy:** All systems operational.
+- ⚠️ **Incident:** Technical hurdle encountered (See Incident Log).
+- ❌ **Fault:** Service down/Critical failure.
