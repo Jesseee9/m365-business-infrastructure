@@ -23,10 +23,9 @@
 | 05 Jan | WK1 | ✅ Healthy | 45.0%* | 58.3% | Initial baseline. *Estimated based on Jan 30 audit. |
 | 12 Jan | WK2 | ✅ Healthy | 45.0%* | 58.3% | Routine check. Verified SPF/DKIM via MXToolbox. |
 | 19 Jan | WK3 | ✅ Healthy | 45.0%* | 58.3% | Routine check. Reviewed Entra ID sign-in logs. |
-| 26 Jan | WK4 | ⚠️ Incident | 45.0%* | 58.3% | **Phase 2 Deploy.** Automation delay noted (See INC#003). |
-| 02 Feb | WK5 | ✅ Healthy | 45.96% | 58.33% | **Today:** Logged actual Defender baseline. Identity secure. |
+| 26 Jan | WK4 | ⚠️ Incident | 45.0%* | 58.3% | **Phase 2 Deploy.** Automation delay noted  |
+| 02 Feb | WK5 | ✅ Healthy | 45.96% | 58.33% | **Today:** Logged actual Defender baseline.  |
 | 09 Feb | WK6 | | | | |
-| 16 Feb | WK7 | | | | |
 
 ---
 
