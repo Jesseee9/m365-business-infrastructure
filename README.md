@@ -36,7 +36,8 @@ A live, production-grade Microsoft 365 environment for **Guest Turnover Solution
 │ • Security Def. │ │ (Auto Lead Log) │         │ • Lead Database │
 │ • Break-glass   │ │                 │         │ • Documents     │
 │ • Secure Score  │ │                 │         │ • Checklists    │
-└─────────────────┘ └─────────────────┘         └─────────────────┘🛠 The Technical Stack
+└─────────────────┘ └─────────────────┘         └─────────────────┘
+🛠 The Technical Stack
 Category	Technology	Purpose
 Automation	Power Automate	Automated Lead Tracking (Email → SharePoint)
 Analytics	Google Analytics (GA4)	Monitoring user traffic and digital ROI
